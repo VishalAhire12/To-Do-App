@@ -1,0 +1,208 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d1f2eb;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  background-color: #1abc9c;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.input-group {
+  display: flex;
+  gap: 200px;
+  margin-bottom: 200px;
+}
+
+input {
+  padding: 10px;
+  padding-left: 50px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border: 1px solid #bdc3c7;
+}
+
+button {
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2ecc71;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #9b59b6;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  background: #95a5a6;
+}
+
+li button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+  margin-bottom: 20px;
+}
+.button1{
+  margin-left:200px;
+}
+.
+.input-group input {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.input-group button {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: #7edb7e;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.input-group button:hover {
+  background-color: #67b567;
+}
+.task-input {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.task-input input {
+  width: 250px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.task-input button {
+  margin-left: 10px;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #c084e5;
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+li.completed {
+  text-decoration: line-through;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.done-btn,
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+
+}
+
+.done-btn:hover {
+  color: #7edb7e;
+}
+
+.delete-btn:hover {
+  color: #ff7b7b;
+}
+
+
+
+.search-container {
+  position: relative;
+  width: 300px;
+  margin-left:60px;
+}
+
+.search-container input {
+  width: 135%;
+  padding: 10px 40px 10px 15px;
+  margin:7px 50px 10px -50px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-container input:focus {
+  border-color: #007bff;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  left:370px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #666;
+  
+}
+.search1{
+  background-color:#666;
+}
